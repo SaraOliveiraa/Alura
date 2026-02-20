@@ -1,6 +1,6 @@
 # Alura Books
 
-Aplicacao web de livraria online desenvolvida com **React** e **Vite**, voltada para livros de tecnologia e programacao.
+Aplicação web de livraria online desenvolvida com **React** e **Vite**, voltada para livros de tecnologia e programação.
 
 ![React](https://img.shields.io/badge/React-19.2.0-61DAFB?logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-7.3.1-646CFF?logo=vite&logoColor=white)
@@ -10,26 +10,26 @@ Aplicacao web de livraria online desenvolvida com **React** e **Vite**, voltada 
 
 ## Sobre o Projeto
 
-O Alura Books simula uma plataforma de e-commerce de livros com interface moderna e responsiva. A aplicacao conta com:
+O Alura Books simula uma plataforma de e-commerce de livros com interface moderna e responsiva. A aplicação conta com:
 
-- Header fixo com navegacao, barra de busca e icones de acao
-- Banner principal com destaque para lancamentos
+- Header fixo com navegação, barra de busca e ícones de ação
+- Banner principal com destaque para lançamentos
 - Filtro interativo por categorias
-- Grid de livros com cards contendo informacoes de preco, autor e tags
-- Secao editorial com livro em destaque
-- Formulario de newsletter
+- Grid de livros com cards contendo informações de preço, autor e tags
+- Seção editorial com livro em destaque
+- Formulário de newsletter
 - Footer com links institucionais
 
 ---
 
 ## Tecnologias
 
-| Tecnologia                                               | Versao | Finalidade                          |
+| Tecnologia                                               | Versão | Finalidade                          |
 | -------------------------------------------------------- | ------ | ----------------------------------- |
-| [React](https://react.dev/)                              | 19.2.0 | Construcao de interfaces            |
+| [React](https://react.dev/)                              | 19.2.0 | Construção de interfaces            |
 | [Vite](https://vite.dev/)                                | 7.3.1  | Build e servidor de desenvolvimento |
-| [React Compiler](https://react.dev/learn/react-compiler) | -      | Otimizacao automatica de renders    |
-| [ESLint](https://eslint.org/)                            | 9.25.0 | Padronizacao e qualidade de codigo  |
+| [React Compiler](https://react.dev/learn/react-compiler) | -      | Otimização automática de renders    |
+| [ESLint](https://eslint.org/)                            | 9.25.0 | Padronização e qualidade de código  |
 
 ---
 
@@ -64,14 +64,14 @@ alura-books/
 
 ---
 
-## Pre-requisitos
+## Pré-requisitos
 
-- [Node.js](https://nodejs.org/) versao 18 ou superior
+- [Node.js](https://nodejs.org/) versão 18 ou superior
 - npm ou yarn
 
 ---
 
-## Instalacao
+## Instalação
 
 ```bash
 git clone https://github.com/SaraOliveiraa/Alura.git
@@ -79,7 +79,7 @@ cd Alura/alura-books
 npm install
 ```
 
-## Execucao
+## Execução
 
 ```bash
 npm run dev
@@ -91,37 +91,37 @@ Acesse `http://localhost:5173` no navegador.
 
 ## Scripts
 
-| Comando           | Descricao                             |
+| Comando           | Descrição                             |
 | ----------------- | ------------------------------------- |
 | `npm run dev`     | Servidor de desenvolvimento           |
-| `npm run build`   | Build de producao (pasta `dist`)      |
-| `npm run preview` | Pre-visualizacao da build de producao |
-| `npm run lint`    | Verificacao de codigo com ESLint      |
+| `npm run build`   | Build de produção (pasta `dist`)      |
+| `npm run preview` | Pré-visualização da build de produção |
+| `npm run lint`    | Verificação de código com ESLint      |
 
 ---
 
 ## Design System
 
-Variaveis CSS utilizadas para consistencia visual:
+Variáveis CSS utilizadas para consistência visual:
 
-| Variavel           | Valor     | Aplicacao          |
+| Variável           | Valor     | Aplicação          |
 | ------------------ | --------- | ------------------ |
 | `--cor-primaria`   | `#002f52` | Cor principal      |
 | `--cor-secundaria` | `#33a8db` | Cor de apoio       |
-| `--cor-destaque`   | `#eb9b00` | Botoes e destaques |
+| `--cor-destaque`   | `#eb9b00` | Botões e destaques |
 | `--cor-fundo`      | `#f5f5f5` | Fundo geral        |
 | `--cor-texto`      | `#333333` | Texto principal    |
 
-Tipografia: **Poppins** (corpo) e **Playfair Display** (titulos).
+Tipografia: **Poppins** (corpo) e **Playfair Display** (títulos).
 
 ---
 
 ## Responsividade
 
-| Breakpoint | Adaptacao                                        |
+| Breakpoint | Adaptação                                        |
 | ---------- | ------------------------------------------------ |
 | 900px      | Hero e destaque reorganizados em coluna          |
-| 600px      | Grid simplificado, busca e formularios adaptados |
+| 600px      | Grid simplificado, busca e formulários adaptados |
 
 ---
 
@@ -131,6 +131,6 @@ Tipografia: **Poppins** (corpo) e **Playfair Display** (titulos).
 
 ---
 
-## Licenca
+## Licença
 
 Projeto desenvolvido como parte dos estudos na [Alura](https://www.alura.com.br/).
